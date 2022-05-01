@@ -93,7 +93,6 @@ QString getChunkString(vec3d pos)
 	return QString("[%1, %2]").arg(x).arg(z);
 }
 
-// in 1gt: [logger -> explode -> move -> drag -> gravity]
 void PearlCannonHelper::generateTrace()
 {
 	if (flag_initializing) return;
